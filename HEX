@@ -1,0 +1,25 @@
+Hex
+#include(reg51.h)
+void Dleay(void)
+
+void main(void)
+{
+unsigned char count=0x00;
+{
+while(1)
+{
+p2=count;
+Delay();
+count=count+1;
+}
+}
+void Delay(void)
+{
+int i,j;
+for(i=0;i<10;i++)
+{
+for(j=0;j<10000;j++)
+{
+}
+}
+}
