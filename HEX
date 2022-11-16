@@ -1,6 +1,6 @@
 Hex
-#include(reg51.h)
-void Dleay(void)
+#include<reg51.h>
+void Delay(void);
 
 void main(void)
 {
